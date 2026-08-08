@@ -33,7 +33,7 @@ const workExperience: WorkExperience[] = [
     company: "Claro Dom",
     position: "Data Engineer",
     location: "Santo Domingo, Dominican Republic",
-    period: "Mar 2025 – Present",
+    period: "Mar 2025 – May 2026",
     description: [
       "Participate in the design, development and maintenance of data pipelines and backend services for internal applications",
       "Implement data extraction, transformation and loading (ETL) using Python, SQL and automation tools",
@@ -109,7 +109,7 @@ const projects: Project[] = [
     description:
       "Web System for Online Psychological Consulting for Private Attention Services",
     image: "/imgs/withyou.webp",
-    liveLink: "https://www.withyouapp.me/en",
+    liveLink: "https://withyou-frontend.vercel.app/",
     githubLink: "https://github.com/JohnFSDev/withyou-backend",
     technologies: [
       "Next.js",
