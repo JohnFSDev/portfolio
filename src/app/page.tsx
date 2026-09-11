@@ -125,8 +125,18 @@ const projects: Project[] = [
       "LiveKit",
     ],
   },
+    {
+      id: 2,
+      title: "Mario Watchmaking & Jewelry Workshop",
+      description:
+        "Website and digital catalog for a fine watchmaking and custom artisanal jewelry workshop.",
+      image: "/imgs/taller-mario-img.webp",
+      liveLink: "https://eltallerdemario.mx/",
+      githubLink: "https://eltallerdemario.mx/",
+      technologies: ["React", "TanStack Router", "Tailwind CSS", "TypeScript", "Vite", "Vercel"],
+    },
   {
-    id: 2,
+    id: 3,
     title: "ADR Collections",
     description:
       "Responsive e-commerce web project built with Astro and Tailwind CSS.",
@@ -135,17 +145,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/JohnFSDev/adr-collections-web",
     technologies: ["Astro", "HTML", "CSS", "TailwindCSS", "Vercel"],
   },
-  {
-    id: 3,
-    title: "Hardwhere?",
-    description:
-      "Application for searching and managing electronic components.",
-    image: "/imgs/hardwhere-img.webp",
-    liveLink: "https://github.com/JohnFSDev/Hardwhere/tree/api-backend",
-    githubLink: "https://github.com/JohnFSDev/Hardwhere/tree/api-backend",
-    technologies: ["C#", ".NET Framework", "Entity Framework", "Vue.js"],
-  },
-];
+  ];
 
 const mockData = {
   skills,
